@@ -44,8 +44,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site - GitHub Pages: [Live Site Link](https://cankutay3104.github.io/Frontend-Projects/AgeCalculatorApp/)
+- FrontendMentor Solution: [Solution Link](https://www.frontendmentor.io/solutions/age-calculator-app-solution-Tx_gpMaalY)
 
 ## My process
 
