@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+        <link rel="stylesheet" href="style.css" />
+
+        <title>Frontend Mentor | Age calculator app</title>
+    </head>
+    <body>
+        <main>
+            <form>
+                <div class="three-columns">
+                    <div class="column-one">
+                        <label for="day">DAY</label>
+                        <input type="number" name="day" id="day" placeholder="DD" />
+                        <span class="day-error"></span>
+                    </div>
+
+                    <div class="column-two">
+                        <label for="month">MONTH</label>
+                        <input type="number" name="month" id="month" placeholder="MM" />
+                        <span class="month-error"></span>
+                    </div>
+
+                    <div class="column-three">
+                        <label for="year">YEAR</label>
+                        <input type="number" name="year" id="year" placeholder="YYYY" />
+                        <span class="year-error"></span>
+                    </div>
+                </div>
+
+                <div class="same-line">
+                    <hr />
+                    <button type="submit"><img src="assets/images/icon-arrow.svg" alt="arrow icon for submit button" /></button>
+                </div>
+
+                <div class="results">
+                    <p><span class="purple-text js-year">--</span> years</p>
+                    <p><span class="purple-text js-month">--</span> months</p>
+                    <p><span class="purple-text js-day">--</span> days</p>
+                </div>
+            </form>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
